@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Obsidian Graph</title>
+    <!-- Google Fonts for sleek aesthetics -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- 3D Force Graph Library -->
+    <script src="https://unpkg.com/3d-force-graph"></script>
+</head>
+
+<body>
+    <div id="graph-container"></div>
+
+    <!-- Side Panel / Details Modal -->
+    <div id="details-panel" class="hidden">
+        <button id="close-panel" title="Close">×</button>
+        <div class="panel-header">
+            <div class="node-color-indicator" id="node-color-indicator"></div>
+            <h2 id="node-title">Node Title</h2>
+        </div>
+        <div class="node-meta" id="node-meta">
+            <!-- E.g. cluster name or ID -->
+        </div>
+        <div class="panel-content">
+            <p id="node-description">
+                Click on a node to view its detailed description here.
+            </p>
+        </div>
+    </div>
+    <!-- UI Overlay for App Title -->
+    <div id="ui-overlay">
+        <h1>Celestial Void.</h1>
+        <p>Interactive 3D Knowledge Graph Visualization</p>
+    </div>
+    <!-- Loading Overlay -->
+    <div id="loading-overlay">
+        <div class="spinner"></div>
+        <p>Generating Universe...</p>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
