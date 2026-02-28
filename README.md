@@ -6,7 +6,7 @@ Think of it as a living constellation of ideas
 
  Features
  2500+ dynamic nodes with realistic clustering
- Color-coded knowledge clusters
+ Color coded knowledge clusters
  Outer halo + dense inner core structure
  Hover to highlight connections
 
@@ -19,9 +19,9 @@ Open a detailed side panel
 🛠️ Tech Stack / What I Used
 HTML5 – App structure
 CSS3 – Dark UI, glass panels, animations
-JavaScript (Vanilla) – Logic & interactions
-3d-force-graph – WebGL-based 3D force-directed graph
-Three.js (under the hood) – GPU-accelerated rendering
+JavaScript (Vanilla)  Logic & interactions
+3d-force-graph  WebGL-based 3D force directed graph
+Three.js (under the hood) GPU-accelerated rendering
 No frameworks. No build tools. Just clean web tech.
 
 📁 Project Structure
