@@ -2,13 +2,13 @@
 
 Celestial Void is an interactive 3D knowledge graph inspired by Obsidian’s graph view, but rendered in real-time 3D space.
 It visualizes thousands of interconnected nodes as clusters floating inside a spherical universe.
-Think of it as a living constellation of ideas ✨
+Think of it as a living constellation of ideas 
 
-🚀 Features
-🧠 2500+ dynamic nodes with realistic clustering
-🌈 Color-coded knowledge clusters
-🪐 Outer halo + dense inner core structure
-🔍 Hover to highlight connections
+ Features
+ 2500+ dynamic nodes with realistic clustering
+ Color-coded knowledge clusters
+ Outer halo + dense inner core structure
+ Hover to highlight connections
 
 🖱️ Click any node to:
 Focus the camera
